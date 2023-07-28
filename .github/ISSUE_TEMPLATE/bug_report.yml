@@ -6,6 +6,7 @@ body:
   - type: markdown
     attributes:
       label: Info
+      value: ""
       description: |
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
         This form is for __iOS_native_SDK__ only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories)
