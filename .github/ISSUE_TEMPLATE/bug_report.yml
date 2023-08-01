@@ -22,7 +22,7 @@ body:
     attributes:
       label: Description
       description: Short description of the issue. You can add screenshots and screencast to illustrate it.
-      placeholder: _Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown._
+      placeholder: Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown.
     validations:
       required: true
   - type: textarea
@@ -31,10 +31,11 @@ body:
       label: Steps to Reproduce
       description: Describe all the steps needed to reproduce the issue. If an issue is only reproducible under particular circumstances, put all required details here. E.g., if a push is not shown only for a specific API request, provide the full request body. Or, if an issue is reproducible with a particular Rich Media, deep link, etc. — specify it.
       placeholder: | 
-        _1. Open the app;_
-        _2. Switch it to the background;_
-        _3. Received notification with "root_params" causes the app to crash;_
-        _This happens only if dependency XYZ v.1.2.3 is installed_
+        1. Open the app;
+        2. Switch it to the background;
+        3. Received notification with "root_params" causes the app to crash.
+        
+        This happens only if dependency XYZ v.1.2.3 is installed
     validations:
       required: true
   - type: dropdown
@@ -95,7 +96,7 @@ body:
     attributes:
       label: Affected platform versions
       description: Please specify the iOS platform version on which this issue occurs. If the issue occurs when building, then specify the target platform.
-      placeholder: _E.g. iOS 16.5.1, iOS 15.x, etc._
+      placeholder: E.g. iOS 16.5.1, iOS 15.x, etc.
     validations:
       required: true
   - type: textarea
