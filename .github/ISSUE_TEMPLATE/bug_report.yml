@@ -44,7 +44,7 @@ body:
   - type: dropdown
     id: affected-version
     attributes:
-      label: Affected version
+      label: Your Pushwoosh iOS SDK version
       description: Your iOS SDK version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
       options:
         - 6.5.0
@@ -94,6 +94,11 @@ body:
         - Other — specify it in the description
     validations:
       required: true
+  - type: input
+    id: platform-versions
+    attributes:
+      label: Last worked Pushwoosh iOS SDK version (if any)
+      description: Is there a version that worked well? If so, please specify.
   - type: input
     id: platform-versions
     attributes:
