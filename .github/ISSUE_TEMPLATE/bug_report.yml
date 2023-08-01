@@ -22,7 +22,7 @@ body:
     attributes:
       label: Description
       description: Short description of the issue. You can add screenshots and screencast to illustrate it.
-      placeholder: Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown.
+      placeholder: "Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown."
     validations:
       required: true
   - type: textarea
@@ -96,7 +96,7 @@ body:
     attributes:
       label: Affected platform versions
       description: Please specify the iOS platform version on which this issue occurs. If the issue occurs when building, then specify the target platform.
-      placeholder: E.g. iOS 16.5.1, iOS 15.x, etc.
+      placeholder: "E.g. iOS 16.5.1, iOS 15.x, etc."
     validations:
       required: true
   - type: textarea
