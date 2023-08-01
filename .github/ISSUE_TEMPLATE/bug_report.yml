@@ -30,12 +30,12 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: Your Pushwoosh iOS SDK version
-      description: Your iOS SDK version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
+      label: Issue severity
+      description: 
       options:
-        - Urgent
+        - Normal
+        - defaut: Urgent
         - High
-        - Normal *
         - Low
   - type: textarea
     id: repro-steps
