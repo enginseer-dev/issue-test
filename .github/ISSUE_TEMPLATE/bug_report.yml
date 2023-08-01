@@ -7,45 +7,41 @@ body:
     attributes:
       value: |
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
-        
-        This form is for __iOS_native_SDK__ only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories)
-        
+        This form is for iOS native SDK only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories).
         We appreciate your cooperation!
   - type: checkboxes
     id: rtfm
     attributes:
       label: Docs
-      description: Did you checked the corresponded [integration guide](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) described the process of implementing Pushwoosh SDK into your Native iOS app and follow all the steps needed?
-      options:
+      description: Have you checked the relevant [integration guide] (https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?
         - label: I've checked the guide, but it doesn't help me to resolve the issue.
           required: true
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Short description of the issue. You can add screenshots and screencast to illustrate the issue.
-      placeholder: "*Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown.*"
+      description: Short description of the issue. You can add screenshots and screencast to illustrate it.
+      placeholder: _Example: When receiving a push with Rich Media in a closed app, Rich Media is not shown._
     validations:
       required: true
   - type: textarea
     id: repro-steps
     attributes:
       label: Steps to Reproduce
-      description: Describe all the steps needed to reproduce the issue. If an issue is only reproducible under particular circumstances, put all required details here. I.e. if a push is not shown only for a specific API request, provide the request body. Or, if an issue is reproducible with a particular Rich Media, deep link, etc. — specify it.
+      description: Describe all the steps needed to reproduce the issue. If an issue is only reproducible under particular circumstances, put all required details here. E.g., if a push is not shown only for a specific API request, provide the full request body. Or, if an issue is reproducible with a particular Rich Media, deep link, etc. — specify it.
       placeholder: | 
-        1. Open the app
-        2. Switch it to the background
-        3. Received notification with "root_params" causes the app to crash
-        This happens only if dependency XYZ v.1.2.3 is installed
+        _1. Open the app;_
+        _2. Switch it to the background;_
+        _3. Received notification with "root_params" causes the app to crash;_
+        _This happens only if dependency XYZ v.1.2.3 is installed_
     validations:
       required: true
   - type: dropdown
     id: affected-version
     attributes:
       label: Affected version
-      description: Your __iOS_native_SDK_version__ integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
+      description: Your iOS SDK version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
       options:
-        - latest
         - 6.5.0
         - 6.4.13
         - 6.4.12
@@ -97,8 +93,8 @@ body:
     id: platform-versions
     attributes:
       label: Affected platform versions
-      description: Please specify the version of the platform on which this issue occurs.
-      placeholder: E.g. iOS 16.5.1, iOS 15.x, etc.
+      description: Please specify the iOS platform version on which this issue occurs. If the issue occurs when building, then specify the target platform.
+      placeholder: _E.g. iOS 16.5.1, iOS 15.x, etc._
     validations:
       required: true
   - type: textarea
@@ -110,5 +106,5 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: After reproducing the issue, copy device console logs and paste them here "as is". This code block will be formatted automatically, so no additional formatting is needed.
+      description: After reproducing the issue, copy device console logs and paste them here "as is". This code block will be formatted automatically, so no additional formatting is needed. If the issue occurs when building, then provide us building logs here.
       render: shell
