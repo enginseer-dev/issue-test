@@ -95,7 +95,7 @@ body:
     validations:
       required: true
   - type: input
-    id: platform-versions
+    id: last-worked
     attributes:
       label: Last worked Pushwoosh iOS SDK version (if any)
       description: Is there a version that worked well? If so, please specify.
