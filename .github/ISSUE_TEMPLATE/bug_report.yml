@@ -15,7 +15,7 @@ body:
     id: rtfm
     attributes:
       label: Documentation
-      description: Have you checked the relevant integration guide: [Setting up Pushwoosh iOS SDK](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?
+      description: "Have you checked the relevant integration guide: [Setting up Pushwoosh iOS SDK](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?"
       options:
         - label: I've checked the guide, but it doesn't help me to resolve the issue.
           required: true
