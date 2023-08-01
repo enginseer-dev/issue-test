@@ -33,7 +33,7 @@ body:
       label: Bug severity
       description: |
         How do you rate the severity of this bug?
-        For an objective assessment, please take into account how often this bug occurs in everyday app interaction, how serious the consequences of its occurrence (crash, warning, data corrupt), number of affected users, enviroment where it occurs (stage, production. etc.).
+        For an objective assessment, please take into account how often this bug occurs in everyday app interaction, how serious the consequences of its occurrence (crash, warning, etc.), number of affected users, enviroment where it occurs (stage, production. etc.).
       options:
         - Low
         - Normal
