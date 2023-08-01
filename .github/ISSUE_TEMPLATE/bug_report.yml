@@ -12,8 +12,8 @@ body:
   - type: checkboxes
     id: rtfm
     attributes:
-      label: Docs
-      description: Have you checked the relevant [integration guide] (https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?
+      label: Documentation
+      description: Have you checked the relevant [integration guide](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?
       options:
         - label: I've checked the guide, but it doesn't help me to resolve the issue.
           required: true
