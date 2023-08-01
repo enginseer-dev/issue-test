@@ -22,8 +22,9 @@ body:
     id: suggestions
     attributes:
       label: Sugeestions
-      description: If you know how you can achieve what you want or you have any information that may help us to achieve this, you can add it here.
-For example, links to repositories, discussion threads, documentation, code samples, etc.
+      description: |
+        If you know how you can achieve what you want or you have any information that may help us to achieve this, you can add it here.
+        For example, links to repositories, discussion threads, documentation, code samples, etc.
 
   - type: markdown
     attributes:
