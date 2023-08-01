@@ -37,7 +37,7 @@ body:
         - High
         - Normal
         - Low
-        default: Normal
+        - default: Normal
   - type: textarea
     id: repro-steps
     attributes:
