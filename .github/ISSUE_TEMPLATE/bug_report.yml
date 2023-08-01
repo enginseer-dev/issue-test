@@ -39,6 +39,8 @@ body:
         - Normal
         - High
         - Urgent
+      validations:
+        required: true
   - type: textarea
     id: repro-steps
     attributes:
