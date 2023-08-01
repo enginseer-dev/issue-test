@@ -36,7 +36,6 @@ body:
         1. Open the app;
         2. Switch it to the background;
         3. Received notification with "root_params" causes the app to crash.
-        
         This happens only if dependency XYZ v.1.2.3 is installed
     validations:
       required: true
