@@ -9,13 +9,13 @@ body:
         Thank you for taking the time to create this issue.
         
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
-        This form is for iOS native SDK only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
+        This form is for Android native SDK only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
 
   - type: checkboxes
     id: rtfm
     attributes:
       label: Documentation
-      description: "Have you checked the relevant integration guide: [Setting up Pushwoosh iOS SDK](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/ios-push-notifications/setting-up-pushwoosh-ios-sdk) which describes implementation process of the Pushwoosh SDK to your native iOS app and follow all the necessary steps?"
+      description: "Have you checked the relevant integration guide: [Integrate Pushwoosh Android SDK](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/android-push-notifications/firebase-integration/integrate-pushwoosh-android-sdk) which describes implementation process of the Pushwoosh SDK to your native Android app and follow all the necessary steps?"
       options:
         - label: I've checked the guide, but it doesn't help me to resolve the issue.
           required: true
@@ -56,31 +56,47 @@ body:
   - type: dropdown
     id: affected-version
     attributes:
-      label: Your Pushwoosh iOS SDK version
-      description: Your iOS SDK version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
+      label: Your Pushwoosh Android SDK version
+      description: Your Android SDK version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases)
       options:
+        - 6.6.14
+        - 6.6.13
+        - 6.6.12
+        - 6.6.11
+        - 6.6.10
+        - 6.6.9
+        - 6.6.8
+        - 6.6.7
+        - 6.6.6
+        - 6.6.5
+        - 6.6.4
+        - 6.6.3
+        - 6.6.2
+        - 6.6.1
+        - 6.6.0
+        - 6.5.4
+        - 6.5.3
+        - 6.5.2
         - 6.5.1
         - 6.5.0
-        - 6.4.13
-        - 6.4.12
-        - 6.4.11
-        - 6.4.10
-        - 6.4.9
-        - 6.4.8
-        - 6.4.7
-        - 6.4.6
-        - 6.4.5
         - 6.4.4
         - 6.4.3
         - 6.4.2
         - 6.4.1
         - 6.4.0
+        - 6.3.7
+        - 6.3.6
         - 6.3.5
         - 6.3.4
         - 6.3.3
         - 6.3.2
         - 6.3.1
         - 6.3.0
+        - 6.2.11
+        - 6.2.10
+        - 6.2.9
+        - 6.2.8
+        - 6.2.7
         - 6.2.6
         - 6.2.5
         - 6.2.4
@@ -88,14 +104,12 @@ body:
         - 6.2.2
         - 6.2.1
         - 6.2.0
+        - 6.1.5
+        - 6.1.4
+        - 6.1.3
+        - 6.1.2
         - 6.1.1
         - 6.1.0
-        - 6.0.13
-        - 6.0.12
-        - 6.0.11
-        - 6.0.10
-        - 6.0.9
-        - 6.0.8
         - 6.0.7
         - 6.0.6
         - 6.0.5
@@ -110,14 +124,17 @@ body:
   - type: input
     id: last-worked
     attributes:
-      label: Last worked Pushwoosh iOS SDK version (if any)
+      label: Last worked Pushwoosh Android SDK version (if any)
       description: Is there a version that worked well? If so, please specify.
-  - type: input
+  - type: textarea
     id: platform-versions
     attributes:
-      label: Affected iOS versions
-      description: Please specify the iOS platform version on which this issue occurs. If the issue occurs when building, then specify the target platform.
-      placeholder: "E.g. iOS 16.5.1, iOS 15.x, etc."
+      label: Affected Android versions/devices
+      description: Please specify the Android platform, device model and custom distributions (if any) on which this issue occurs. If the issue occurs when building, then specify the target platform.
+      placeholder: | 
+        E.g. Android 13 on a Google Pixel 3a XL,
+        MIUI 14.0.8.0 on Xiaomi 13 Ultra,
+        One UI Core 5.1 on a Samsung Galaxy M13 5G, etc.
     validations:
       required: true
   - type: textarea
