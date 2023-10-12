@@ -107,6 +107,8 @@ body:
       options:
         - label: Android
         - label: iOS
+    validations:
+      required: true
   - type: textarea
     id: platform-versions
     attributes:
