@@ -10,7 +10,6 @@ body:
         
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
         This form is for React Native Plugin only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
-
   - type: checkboxes
     id: rtfm
     attributes:
