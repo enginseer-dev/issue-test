@@ -99,7 +99,7 @@ body:
     attributes:
       label: Last worked Pushwoosh React Native Plugin version (if any)
       description: Is there a version that worked well? If so, please specify.
-  - type: checkboxes
+  - type: dropdown
     id: platforms-affected
     attributes:
       label: Affected platforms
@@ -108,8 +108,6 @@ body:
       options:
         - iOS
         - Android
-      validations:
-        required: true
   - type: textarea
     id: platform-versions
     attributes:
