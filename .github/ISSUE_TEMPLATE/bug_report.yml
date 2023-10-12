@@ -99,15 +99,14 @@ body:
     attributes:
       label: Last worked Pushwoosh React Native Plugin version (if any)
       description: Is there a version that worked well? If so, please specify.
-  - type: dropdown
+  - type: checkboxes
     id: platforms-affected
     attributes:
       label: Affected platforms
       description: Select the platforms on which the issue occurs. This helps us determine whether the root cause is core plugin or platform specific.
-      multiple: true
       options:
-        - iOS
-        - Android
+        - label: Android
+        - label: iOS
   - type: textarea
     id: platform-versions
     attributes:
