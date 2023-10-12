@@ -113,7 +113,7 @@ body:
     id: platform-versions
     attributes:
       label: Affected OS versions and/or devices
-      description: Please specify the platform (Android, iOS, etc.), device model and custom distributions (if any) on which this issue occurs. If the issue occurs when building, then specify the target platform.
+      description: Please specify device models and custom distributions (if any) on which this issue occurs. If the issue occurs when building, then specify the target platform.
       placeholder: | 
         E.g. Android 13 on a Google Pixel 3a XL,
         iOS 17.0.3 on an iPhone 14
