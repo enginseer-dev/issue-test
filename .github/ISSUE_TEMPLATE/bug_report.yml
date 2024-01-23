@@ -9,12 +9,12 @@ body:
         Thank you for taking the time to create this issue.
         
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
-        This form is for React Native Plugin only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
+        This form is for Flutter Plugin only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
   - type: checkboxes
     id: rtfm
     attributes:
       label: Documentation
-      description: "Have you checked the relevant integration guide: [Integrating React Native Plugin](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/react-native/integrating-react-native-plugin) which describes implementation process of the Pushwoosh SDK to your app and follow all the necessary steps?"
+      description: "Have you checked the relevant integration guide: [Integrating Flutter Plugin](https://docs.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/flutter) which describes implementation process of the Pushwoosh SDK to your app and follow all the necessary steps?"
       options:
         - label: I've checked the guide, but it doesn't help me to resolve the issue.
           required: true
@@ -55,49 +55,54 @@ body:
   - type: dropdown
     id: affected-version
     attributes:
-      label: Your Pushwoosh React Native Plugin version
-      description: Your React Native Plugin version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-react-native-plugin/releases)
+      label: Your Pushwoosh Flutter Plugin version
+      description: Your Flutter Plugin version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-flutter/releases)
       options:
-        - 6.1.22
-        - 6.1.21
-        - 6.1.20
-        - 6.1.19
-        - 6.1.18
-        - 6.1.17
-        - 6.1.16
-        - 6.1.15
-        - 6.1.14
-        - 6.1.13
-        - 6.1.12
-        - 6.1.11
-        - 6.1.10
-        - 6.1.9
-        - 6.1.8
-        - 6.1.7
-        - 6.1.6
-        - 6.1.5
-        - 6.1.4
-        - 6.1.3
-        - 6.1.2
-        - 6.1.1
-        - 6.0.10
-        - 6.0.9
-        - 6.0.8
-        - 6.0.7
-        - 6.0.6
-        - 6.0.5
-        - 6.0.4
-        - 6.0.3
-        - 6.0.2
-        - 6.0.1
-        - 6.0.0
+        - 2.2.18
+        - 2.2.17
+        - 2.2.16
+        - 2.2.15
+        - 2.2.14
+        - 2.2.13
+        - 2.2.12
+        - 2.2.11
+        - 2.2.10
+        - 2.2.9
+        - 2.2.8
+        - 2.2.7
+        - 2.2.6
+        - 2.2.5
+        - 2.2.4
+        - 2.2.3
+        - 2.2.2
+        - 2.2.1
+        - 2.2.0
+        - 2.1.0
+        - 2.0.3
+        - 2.0.2
+        - 2.0.1
+        - 2.0.0
+        - 1.20.1
+        - 1.20.0
+        - 1.19.1
+        - 1.19.0
+        - 1.18.0
+        - 1.17.1
+        - 1.17.0
+        - 1.14.1
+        - 1.13.0
+        - 1.12.1
+        - 1.12.0
+        - 1.11.0
+        - 1.9.1
+        - 1.9.0
         - Other — specify it in the description
     validations:
       required: true
   - type: input
     id: last-worked
     attributes:
-      label: Last worked Pushwoosh React Native Plugin version (if any)
+      label: Last worked Pushwoosh Flutter version (if any)
       description: Is there a version that worked well? If so, please specify.
   - type: checkboxes
     id: platforms-affected
@@ -131,3 +136,4 @@ body:
       label: Relevant log output
       description: After reproducing the issue, copy device console logs and paste them here "as is". This code block will be formatted automatically, so no additional formatting is needed. If the issue occurs when building, then provide us building logs here.
       render: shell
+
