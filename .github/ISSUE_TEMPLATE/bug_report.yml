@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time to create this issue.
-        
+
         The more detailed information filled below will help us to investigate the root cause of the issue faster and fix it.
         This form is for React Native Plugin only. If this is a bug for another platform or framework — please create the issue in the corresponded [repository](https://github.com/orgs/Pushwoosh/repositories). We appreciate your cooperation!
   - type: checkboxes
@@ -45,7 +45,7 @@ body:
     attributes:
       label: Steps to Reproduce
       description: Describe all the steps needed to reproduce the issue. If an issue is only reproducible under particular circumstances, put all required details here. E.g., if a push is not shown only for a specific API request, provide the full request body. Or, if an issue is reproducible with a particular Rich Media, deep link, etc. — specify it.
-      placeholder: | 
+      placeholder: |
         1. Open the app;
         2. Switch it to the background;
         3. Received notification with "root_params" causes the app to crash.
@@ -58,6 +58,15 @@ body:
       label: Your Pushwoosh React Native Plugin version
       description: Your React Native Plugin version which was integrated to the app. You may find it on the [releases page](https://github.com/Pushwoosh/pushwoosh-react-native-plugin/releases)
       options:
+        - 6.1.32
+        - 6.1.31
+        - 6.1.30
+        - 6.1.29
+        - 6.1.28
+        - 6.1.27
+        - 6.1.26
+        - 6.1.25
+        - 6.1.23
         - 6.1.22
         - 6.1.21
         - 6.1.20
@@ -95,6 +104,13 @@ body:
     validations:
       required: true
   - type: input
+    id: framework-version
+    attributes:
+      label: react-native package version
+      description: Your react-native framework version
+    validations:
+      required: true
+  - type: input
     id: last-worked
     attributes:
       label: Last worked Pushwoosh React Native Plugin version (if any)
@@ -114,7 +130,7 @@ body:
     attributes:
       label: Affected OS versions and/or devices
       description: Please specify device models and custom distributions (if any) on which this issue occurs. If the issue occurs when building, then specify the target platform.
-      placeholder: | 
+      placeholder: |
         E.g. Android 13 on a Google Pixel 3a XL,
         iOS 17.0.3 on an iPhone 14
         MIUI 14.0.8.0 on Xiaomi 13 Ultra, etc.
